@@ -12,7 +12,7 @@ chances = 3  # quantas chances o usuário tem para adivinhar
 """
 Se digitar uma letra certa, mostrar onde está essa letra na palavra
 Se digitar uma letra errada, avisar e tirar uma chance
-Se digitar um caracter inválido ou mais de uma letra, avisar 
+Se digitar um caractere inválido ou mais de uma letra, avisar 
 Fechar o programa se a pessoa acertar
 """
 
@@ -29,7 +29,7 @@ while True:
 
     if len(letra) > 1:
         print("Por favor adivinhe uma letra de cada vez")
-        continue  #mandando voltar pro início no while
+        continue  # mandando voltar pro início no while
 
     digitadas.append(letra)  # adicionando a letra adivinhada à lista
 
