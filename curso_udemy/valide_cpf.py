@@ -20,7 +20,7 @@ Digito 1 = 0          #   Digito 2 = 9
 """
 
 # ---------------------- minha solução ----
-cpf = str(input("Por favor digite o CPF"))
+cpf = str(input("Por favor digite o CPF: "))
 novo_cpf = cpf[:-2]  # variável que vamos criar para conferir o cpf (tirando os dois últimos digitos)
 cpf_lista = [int(i) for i in novo_cpf]
 
