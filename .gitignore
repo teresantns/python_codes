@@ -215,4 +215,4 @@ $RECYCLE.BIN/
 .idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/python,linux,windows,macos
-curso_udemy/revisao_poo.py
+/revisao_poo.py
